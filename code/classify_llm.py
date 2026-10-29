@@ -90,6 +90,14 @@ def main(split):
 
     print(f"Messages: {len(data)}")
     print(f"Accuracy: {accuracy_score(data['intent'], data['predicted']):.3f}")
+    if split == "stress_multi":
+        # Also count the answer as right if it matches the second intent in the note.
+        lenient = data.apply(
+            lambda r: r["predicted"] == r["intent"]
+            or (isinstance(r["note"], str) and r["predicted"] in r["note"]),
+            axis=1,
+        )
+        print(f"Accuracy if the second intent also counts: {lenient.mean():.3f}")
     print(classification_report(data["intent"], data["predicted"], zero_division=0))
 
     lat = data["latency_s"]
