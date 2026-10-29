@@ -1,0 +1,26 @@
+id,message,intent,split,note,predicted,latency_s,input_tokens,output_tokens
+m005,I don pay. Abeg confirm,payment_confirmation,stress_pidgin,,payment_confirmation,2.2749451890000003,812,39
+m012,Rider dey come or na?,order_status,stress_pidgin,,order_status,2.2165794620000003,809,35
+m015,How much be the jollof rice and chicken?,price_availability,stress_pidgin,,price_availability,0.7478839099999988,814,36
+m031,Wia my food? E don tey,order_status,stress_pidgin,,order_status,1.3996827510000003,810,35
+m047,"ive sent d money, pls confrm",payment_confirmation,stress_pidgin,,payment_confirmation,0.7798032739999989,812,39
+m050,"Abeg I wan my money back, na wrong food una send",complaint_refund,stress_pidgin,,complaint_refund,1.138759181000001,818,38
+m081,"i no get wat i paid for, plz refund me",complaint_refund,stress_pidgin,,complaint_refund,0.8776206250000005,815,38
+m089,hw long again b4 my food reach me,order_status,stress_pidgin,,order_status,0.8773290740000004,812,35
+m097,i wan buy suya for 5k,place_order,stress_pidgin,,place_order,1.7156848500000006,811,35
+m132,abeg una get ofada rice today?,price_availability,stress_pidgin,,price_availability,0.8759925779999982,812,36
+m148,"Transfer done, pls check ur acct",payment_confirmation,stress_pidgin,,payment_confirmation,0.8422850170000018,813,39
+m159,"dis food no good at all, e dey smell",complaint_refund,stress_pidgin,,complaint_refund,0.9592025779999993,813,38
+m213,Una don send the food?,order_status,stress_pidgin,,order_status,1.1770358480000027,807,35
+m237,Food come cold and one item no dey. I wan refund,complaint_refund,stress_pidgin,,complaint_refund,1.263229973999998,817,38
+m253,Una give me small portion for dis money,complaint_refund,stress_pidgin,,price_availability,1.0262898380000003,811,36
+m271,Money don enter?,payment_confirmation,stress_pidgin,,payment_confirmation,0.872221365999998,806,39
+m282,pls i wnt to oder 3 pakcs of fried rice,place_order,stress_pidgin,,place_order,1.068098053,821,35
+m283,pls hw much is 2 packs of fried rice n turkey,price_availability,stress_pidgin,,price_availability,0.9553239920000003,820,36
+m294,"make una send me 1 egusi and pounded yam, I dey Yaba",place_order,stress_pidgin,,place_order,1.0117725280000016,824,35
+m295,i needd 2 plats of rice nd turkey 4 lunch,place_order,stress_pidgin,,place_order,1.0345285020000006,822,35
+m299,wat is d price 4 party tray,price_availability,stress_pidgin,,price_availability,1.955920066000001,811,36
+m302,Abeg I wan order 2 packs of jollof and chicken,place_order,stress_pidgin,,place_order,1.9691813459999992,821,35
+m305,"i dun make payment, abeg check",payment_confirmation,stress_pidgin,,payment_confirmation,0.9256196309999964,811,39
+m321,abeg wetin dey happen to my order,order_status,stress_pidgin,,order_status,0.8817258539999955,813,35
+m331,Una still dey sell suya?,price_availability,stress_pidgin,,price_availability,0.9629832389999962,810,36

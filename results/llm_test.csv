@@ -1,0 +1,101 @@
+id,message,intent,split,note,predicted,latency_s,input_tokens,output_tokens
+m004,I'm not happy with my order. The rice was dry and hard to eat,complaint_refund,test,,complaint_refund,1.577590378,822,38
+m006,"Hello, I just sent ₦8,500 to your account. Please confirm",payment_confirmation,test,,payment_confirmation,1.3098436519999996,824,39
+m009,Please add 1 small chops pack to the order I just sent,place_order,test,,place_order,3.15733333,818,35
+m010,"Hi, just checking on my order. It was supposed to be delivered at 2.",order_status,test,,order_status,2.2517227370000015,825,35
+m011,One of my packs was missing the plantain I paid for,complaint_refund,test,,complaint_refund,2.766445526000002,816,38
+m014,Hello! Is the special combo still on offer?,price_availability,test,,price_availability,1.0392467100000005,815,36
+m016,abeg I wan order 2 packs of fried rice and chicken,place_order,test,,place_order,2.4334796810000014,821,35
+m017,"Money sent, please confirm and let me know when it will be ready",payment_confirmation,test,,payment_confirmation,2.298176404000003,819,39
+m019,Do you have the egusi without fish?,price_availability,test,,price_availability,1.1240638129999994,812,36
+m020,"Payment of ₦20,000 sent for tomorrow's order, kindly confirm",payment_confirmation,test,,payment_confirmation,1.016934353,828,39
+m023,I've been waiting since 12:30. Please check on my order.,order_status,test,,order_status,1.0417213409999988,819,35
+m025,Why did my order arrive without the stew?,complaint_refund,test,,complaint_refund,1.9282072329999984,813,38
+m039,What's the price for small chops for 20 people?,price_availability,test,,price_availability,0.8654870379999977,814,36
+m045,"I sent the money through the bank website, it might take a few minutes. Just letting you know.",payment_confirmation,test,,payment_confirmation,1.0476309659999998,827,39
+m046,"Hi, I made a transfer of 12k at 12:40 pm. Can you check?",payment_confirmation,test,,payment_confirmation,2.1625542079999995,828,39
+m048,Please let me know the delivery time for my order,order_status,test,,order_status,1.3680979390000019,813,35
+m052,I'd like two portions of jollof rice with chicken please,place_order,test,,place_order,1.0403920270000029,818,35
+m055,"I'm at the location, no rider yet. Please check.",order_status,test,,order_status,1.1886345189999972,817,35
+m057,Is today's menu on your page up to date?,price_availability,test,,price_availability,1.0489230640000002,813,36
+m062,"hello, are you still taking orders for tomorrow's lunch?",price_availability,test,,price_availability,1.0644754199999937,821,36
+m064,"Rider has not arrived, it's been 1 hour 20 mins",order_status,test,,order_status,1.239377625000003,822,35
+m069,What's the cost of the party pack for 15 people?,price_availability,test,,price_availability,1.4527089520000018,816,36
+m070,my order status pls,order_status,test,,order_status,0.9817858930000014,805,35
+m072,The food came cold and one item is missing.,complaint_refund,test,,complaint_refund,1.1863222690000015,812,38
+m073,Kindly confirm I've paid for the family size jollof,payment_confirmation,test,,payment_confirmation,1.0435032170000014,818,39
+m077,I want to place an order for 2 trays of small chops for Saturday,place_order,test,,place_order,1.1811598729999986,821,35
+m079,I placed my order at 12 and it's now 1:30. Where is the rider?,order_status,test,,order_status,1.2909868770000017,825,35
+m083,I'm not happy. The food was cold and the rider took forever,complaint_refund,test,,complaint_refund,1.0500431720000023,819,38
+m084,hi pls what's your cheapest combo,price_availability,test,,price_availability,1.096479011999996,813,36
+m085,"Hello, how much is delivery to Lekki?",price_availability,test,,price_availability,2.574264898999999,816,36
+m086,do u have fried yam and fish,price_availability,test,,price_availability,1.0513909730000037,810,36
+m094,Payment made for 2 packs of jollof. Pls confirm,payment_confirmation,test,,payment_confirmation,1.0445963099999958,821,39
+m105,"Very disappointed, this is the second time my order was wrong",complaint_refund,test,,complaint_refund,1.0501174230000032,818,38
+m109,I want to complain about how my order was handled,complaint_refund,test,,complaint_refund,1.046888238000001,812,38
+m114,"Please I want to confirm my order: 2 fried rice with chicken, 1 moi moi",place_order,test,,place_order,1.4017790150000025,830,35
+m115,Can I get 3 wraps of moi moi and 2 portions of jollof?,place_order,test,,place_order,1.4916110099999997,826,35
+m120,"Good afternoon, I've made payment for my order. Kindly confirm.",payment_confirmation,test,,payment_confirmation,0.8977221879999959,824,39
+m123,"I want to order the 5k pack twice, one to Yaba and one to Surulere",place_order,test,,place_order,1.0092258280000053,826,35
+m124,I'm still waiting for my order. How long does delivery to Lekki usually take?,order_status,test,,order_status,1.268993358000003,826,35
+m125,The pepper soup had no fish and I paid for catfish,complaint_refund,test,,complaint_refund,1.0531229960000061,818,38
+m126,"Good evening, I want to order for 30 people on Saturday. Please confirm if you can handle it.",place_order,test,,place_order,0.9650326809999967,832,35
+m127,"Hi, any news on my delivery?",order_status,test,,order_status,1.0571282930000052,812,35
+m129,Can you confirm my delivery is still on schedule for 1pm?,order_status,test,,order_status,1.5617550660000035,822,35
+m131,"Good afternoon, has my order left the kitchen?",order_status,test,,order_status,1.0063441129999973,817,35
+m133,"hi, 1 pack of jollof and plantain pls",place_order,test,,place_order,0.9403267520000043,818,35
+m138,"Please I want to know if my transfer of 7,000 has landed",payment_confirmation,test,,payment_confirmation,0.981921799999995,820,39
+m139,"Place my order for the weekend party pack, 25 people. I'll send the deposit now",place_order,test,,place_order,1.0453179309999996,827,35
+m149,What's the delivery fee to Surulere?,price_availability,test,,price_availability,0.962563252999999,814,36
+m151,Are you open this evening?,price_availability,test,,price_availability,1.0428981449999952,808,36
+m152,"Please I need to place an order for tomorrow morning, breakfast for 10 people",place_order,test,,place_order,1.023490835000004,826,35
+m164,What time will the party order be delivered on Saturday? Just confirming the timing,order_status,test,,order_status,1.174328396000007,824,35
+m165,Please confirm the time my party food will arrive. Guests come at 4.,order_status,test,,order_status,1.3680953230000057,823,35
+m171,"do you have fresh fish pepper soup tonight, how much?",price_availability,test,,price_availability,0.8844614730000018,820,36
+m172,The drink was warm and the food was cold,complaint_refund,test,,complaint_refund,0.9059845660000008,812,38
+m173,"Good morning. I sent the payment last night, can you confirm you got it?",payment_confirmation,test,,payment_confirmation,1.0286471149999983,823,39
+m174,"I haven't received my food, please advise",order_status,test,,order_status,0.8878868709999921,811,35
+m175,Payment done. Please check your account,payment_confirmation,test,,payment_confirmation,0.9407141909999979,810,39
+m178,"The rider says he's lost, please give him clear directions",order_status,test,,out_of_scope,1.315355451000002,816,33
+m179,Good morning. Do you have amala and ewedu today?,price_availability,test,,price_availability,0.9005116810000118,818,36
+m180,"Please book 1 party tray of fried rice for Sunday, 2pm pickup",place_order,test,,place_order,1.7439560899999975,827,35
+m194,Very bad experience today. I want to speak to the manager,complaint_refund,test,,complaint_refund,1.0231352079999994,817,38
+m206,Has the kitchen started preparing my order?,order_status,test,,order_status,2.101191966000002,814,35
+m208,"Hi, what's your price for bulk orders above 30 packs?",price_availability,test,,price_availability,1.5786997019999944,821,36
+m214,I need to order food for 40 people on Sunday. Kindly confirm the date is free so I can pay the deposit.,place_order,test,,place_order,1.5662708729999935,837,35
+m216,"Good evening, I ordered dinner. What's the estimated delivery time?",order_status,test,,order_status,2.0972340829999894,824,35
+m219,The moi moi was hard and undercooked,complaint_refund,test,,complaint_refund,1.0459104830000001,813,38
+m224,"Please set aside 3 packs of suya for me, I'll pick up at 7pm",place_order,test,,place_order,1.076783889000012,827,35
+m233,"Let me get 2 portions of the pepper soup, catfish",place_order,test,,place_order,0.8936481369999996,820,35
+m234,Can I get the menu with prices please,price_availability,test,,price_availability,1.177135063999998,811,36
+m238,I'm still waiting for the refund you promised,complaint_refund,test,,complaint_refund,0.7460305709999915,814,38
+m242,Do you have any discount if I order for 10 people,price_availability,test,,price_availability,1.0196870359999934,815,36
+m247,My order was wrong again. I asked for no pepper and it was full of pepper,complaint_refund,test,,complaint_refund,0.9869315490000048,824,38
+m248,"my food was cold when it arrived, please do something about it",complaint_refund,test,,complaint_refund,1.0580193039999983,816,38
+m249,pls how much is your party jollof per tray,price_availability,test,,price_availability,0.9705126030000031,813,36
+m251,Is the offer for 2 plates still valid today?,price_availability,test,,price_availability,1.0031305759999896,816,36
+m254,Update please. I've been waiting a while.,order_status,test,,order_status,1.1676400089999959,813,35
+m258,"Kindly confirm payment of 6,000 from Ngozi",payment_confirmation,test,,payment_confirmation,1.2701098210000055,821,39
+m259,hi I'll like to order 1 jollof rice with grilled fish,place_order,test,,place_order,1.1125547649999987,822,35
+m261,Still available?,price_availability,test,,price_availability,0.9290934779999986,804,36
+m267,"Just made the payment via my bank app, please confirm so you can start preparing",payment_confirmation,test,,payment_confirmation,1.3295900330000023,823,39
+m268,"Please refund me, I cancelled the order before it was prepared but you kept my money",complaint_refund,test,,complaint_refund,0.9910811069999994,825,38
+m269,I ordered fried rice and got jollof. Please fix this,complaint_refund,test,,complaint_refund,1.047590365000005,819,38
+m275,"Please check if my deposit has entered, I sent 15k for the party order.",payment_confirmation,test,,payment_confirmation,0.8905233910000021,823,39
+m280,"I want to order now, please what's the account number",place_order,test,,place_order,1.0725465419999978,812,35
+m290,Is the order still being prepared?,order_status,test,,order_status,3.4813735750000063,810,35
+m291,Please confirm that my payment was received. I don't want my order to be delayed.,payment_confirmation,test,,payment_confirmation,0.9447669589999919,824,39
+m296,The party tray was half empty when it arrived,complaint_refund,test,,complaint_refund,1.02728003,813,38
+m303,"Hi, do you sell drinks too? How much is a bottle of water",price_availability,test,,price_availability,1.2169934549999937,822,36
+m308,"One amala with gbegiri and ewedu, assorted meat, please",place_order,test,,place_order,1.0115683570000016,822,35
+m311,Did you get my transfer? My bank says it was successful,payment_confirmation,test,,payment_confirmation,0.9131858559999984,817,39
+m314,"the money has left my account, please check if it came in",payment_confirmation,test,,payment_confirmation,0.7467986569999994,813,39
+m325,"Good evening, I have made the payment, please confirm it came through",payment_confirmation,test,,payment_confirmation,0.9119493049999932,819,39
+m327,Kindly process an order for 6 packs of jollof for tomorrow's meeting,place_order,test,,place_order,1.0422885770000079,827,35
+m329,"I have sent the 5k deposit, kindly confirm",payment_confirmation,test,,payment_confirmation,0.9186099279999951,818,39
+m339,"The food was too salty, I couldn't eat it",complaint_refund,test,,complaint_refund,2.3663079189999934,815,38
+m340,The quality has dropped. The jollof was soggy today,complaint_refund,test,,complaint_refund,1.058565480999988,817,38
+m352,I want to buy 2 packs of suya,place_order,test,,place_order,1.2721230049999974,813,35
+m353,Honestly I'm not satisfied with the service today,complaint_refund,test,,complaint_refund,0.7772402180000029,816,38
+m359,Paid ✅,payment_confirmation,test,,payment_confirmation,0.9742509590000168,806,39
+m360,It's been an hour. Where's my food?,order_status,test,,order_status,0.907018886000003,813,35

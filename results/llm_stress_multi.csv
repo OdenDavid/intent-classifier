@@ -1,0 +1,16 @@
+id,message,intent,split,note,predicted,latency_s,input_tokens,output_tokens
+m002,"Thanks for the food, it was great. Please what's the price for the party pack?",price_availability,stress_multi,opens with praise,price_availability,1.2506633669999996,824,36
+m007,"How much is 3 packs of fried rice, and can you deliver to Lekki by 1pm?",price_availability,stress_multi,also: place_order,price_availability,0.8496652290000002,831,36
+m008,I paid but the food hasn't arrived and it's been 2 hours,order_status,stress_multi,"ambiguous: also payment_confirmation, complaint_refund",order_status,1.3282892559999997,822,35
+m038,Is the jollof rice available? If yes I'll take 2 portions,price_availability,stress_multi,also: place_order,price_availability,1.3346484010000008,822,36
+m063,"Hi, I've paid 12k for my order. How long before it arrives?",payment_confirmation,stress_multi,also: order_status,payment_confirmation,0.8745572710000005,823,39
+m080,I want to cancel my order and get my money back,complaint_refund,stress_multi,also: place_order (cancel),complaint_refund,0.9214778589999995,813,38
+m145,"Good morning, is the suya ready? I'm 10 minutes away",order_status,stress_multi,ambiguous: also price_availability,order_status,0.790220841,822,35
+m168,"I sent the money, where's my food now?",payment_confirmation,stress_multi,also: order_status,order_status,0.8718921350000013,812,35
+m170,"The rider is lost and the food is going cold, please call him",order_status,stress_multi,also: complaint_refund,order_status,0.9431111769999987,817,35
+m193,My food was cold. Also I want to add a chapman to tomorrow's order,complaint_refund,stress_multi,also: place_order,complaint_refund,0.9772092699999995,824,38
+m288,"Hello, I'd like to order, and I've already paid 10k",place_order,stress_multi,also: payment_confirmation,place_order,1.3009046560000002,820,35
+m292,Where is my order? If it's not coming I want a refund,order_status,stress_multi,also: complaint_refund,order_status,1.0294524399999982,817,35
+m320,Do you have ofada rice? I'd also like a refund for yesterday's missing item,price_availability,stress_multi,also: complaint_refund,price_availability,1.3017274919999977,827,36
+m323,Please I want to order 2 jollof. Also confirm that my last payment came in,place_order,stress_multi,also: payment_confirmation,place_order,1.2108317,825,35
+m354,Can you confirm my payment? Then I'll add one more pack of suya,payment_confirmation,stress_multi,also: place_order,payment_confirmation,1.3638195360000012,823,39

@@ -1,0 +1,61 @@
+id,message,intent,split,note,predicted,confidence
+m005,I don pay. Abeg confirm,payment_confirmation,stress_pidgin,,payment_confirmation,0.379896691544711
+m012,Rider dey come or na?,order_status,stress_pidgin,,order_status,0.29039165459843547
+m015,How much be the jollof rice and chicken?,price_availability,stress_pidgin,,price_availability,0.4796949463849608
+m031,Wia my food? E don tey,order_status,stress_pidgin,,order_status,0.370791019632629
+m047,"ive sent d money, pls confrm",payment_confirmation,stress_pidgin,,payment_confirmation,0.37688481117748845
+m050,"Abeg I wan my money back, na wrong food una send",complaint_refund,stress_pidgin,,complaint_refund,0.3545109810483974
+m081,"i no get wat i paid for, plz refund me",complaint_refund,stress_pidgin,,complaint_refund,0.37193482200271405
+m089,hw long again b4 my food reach me,order_status,stress_pidgin,,order_status,0.47710665678691205
+m097,i wan buy suya for 5k,place_order,stress_pidgin,,price_availability,0.2277875044572246
+m132,abeg una get ofada rice today?,price_availability,stress_pidgin,,price_availability,0.30714506262114694
+m148,"Transfer done, pls check ur acct",payment_confirmation,stress_pidgin,,payment_confirmation,0.3528614010472817
+m159,"dis food no good at all, e dey smell",complaint_refund,stress_pidgin,,complaint_refund,0.2836639656770171
+m213,Una don send the food?,order_status,stress_pidgin,,complaint_refund,0.360119744818036
+m237,Food come cold and one item no dey. I wan refund,complaint_refund,stress_pidgin,,complaint_refund,0.39836817976318595
+m253,Una give me small portion for dis money,complaint_refund,stress_pidgin,,complaint_refund,0.28215792467851725
+m271,Money don enter?,payment_confirmation,stress_pidgin,,complaint_refund,0.2679977049067604
+m282,pls i wnt to oder 3 pakcs of fried rice,place_order,stress_pidgin,,place_order,0.5801952095772159
+m283,pls hw much is 2 packs of fried rice n turkey,price_availability,stress_pidgin,,price_availability,0.3695248178983064
+m294,"make una send me 1 egusi and pounded yam, I dey Yaba",place_order,stress_pidgin,,place_order,0.34937493321441426
+m295,i needd 2 plats of rice nd turkey 4 lunch,place_order,stress_pidgin,,place_order,0.3994442514017013
+m299,wat is d price 4 party tray,price_availability,stress_pidgin,,price_availability,0.3094602868210024
+m302,Abeg I wan order 2 packs of jollof and chicken,place_order,stress_pidgin,,place_order,0.4669160627441095
+m305,"i dun make payment, abeg check",payment_confirmation,stress_pidgin,,payment_confirmation,0.3427504652820839
+m321,abeg wetin dey happen to my order,order_status,stress_pidgin,,order_status,0.35917316066751914
+m331,Una still dey sell suya?,price_availability,stress_pidgin,,price_availability,0.2654416875173317
+m002,"Thanks for the food, it was great. Please what's the price for the party pack?",price_availability,stress_multi,opens with praise,complaint_refund,0.3315617240757687
+m007,"How much is 3 packs of fried rice, and can you deliver to Lekki by 1pm?",price_availability,stress_multi,also: place_order,price_availability,0.38281276179554474
+m008,I paid but the food hasn't arrived and it's been 2 hours,order_status,stress_multi,"ambiguous: also payment_confirmation, complaint_refund",complaint_refund,0.35817908520017055
+m038,Is the jollof rice available? If yes I'll take 2 portions,price_availability,stress_multi,also: place_order,place_order,0.32288327198126393
+m063,"Hi, I've paid 12k for my order. How long before it arrives?",payment_confirmation,stress_multi,also: order_status,order_status,0.36418348207634604
+m080,I want to cancel my order and get my money back,complaint_refund,stress_multi,also: place_order (cancel),place_order,0.2763254680031837
+m145,"Good morning, is the suya ready? I'm 10 minutes away",order_status,stress_multi,ambiguous: also price_availability,order_status,0.2602005914847372
+m168,"I sent the money, where's my food now?",payment_confirmation,stress_multi,also: order_status,order_status,0.32185248140949296
+m170,"The rider is lost and the food is going cold, please call him",order_status,stress_multi,also: complaint_refund,order_status,0.3410226214369917
+m193,My food was cold. Also I want to add a chapman to tomorrow's order,complaint_refund,stress_multi,also: place_order,complaint_refund,0.39983634908317184
+m288,"Hello, I'd like to order, and I've already paid 10k",place_order,stress_multi,also: payment_confirmation,place_order,0.4223359682938375
+m292,Where is my order? If it's not coming I want a refund,order_status,stress_multi,also: complaint_refund,order_status,0.4887049507180903
+m320,Do you have ofada rice? I'd also like a refund for yesterday's missing item,price_availability,stress_multi,also: complaint_refund,price_availability,0.42542367851836194
+m323,Please I want to order 2 jollof. Also confirm that my last payment came in,place_order,stress_multi,also: payment_confirmation,place_order,0.3196167371336346
+m354,Can you confirm my payment? Then I'll add one more pack of suya,payment_confirmation,stress_multi,also: place_order,payment_confirmation,0.3185920426404237
+m042,Is this the same number for the owner?,out_of_scope,stress_oos,,complaint_refund,0.3038692352202092
+m087,Thanks!,out_of_scope,stress_oos,,place_order,0.2527688150368838
+m088,I want to collaborate with you on a food festival,out_of_scope,stress_oos,,place_order,0.3230445127577325
+m090,Do you sell cooking equipment?,out_of_scope,stress_oos,,price_availability,0.5100407498784977
+m106,Congratulations on your new branch!,out_of_scope,stress_oos,,order_status,0.22490629661139602
+m111,"I'm a supplier of fresh tomatoes, can we talk?",out_of_scope,stress_oos,,place_order,0.27383716871120645
+m113,"Hello, are you hiring riders?",out_of_scope,stress_oos,,price_availability,0.3396727503818141
+m140,Can I advertise my business on your page?,out_of_scope,stress_oos,,order_status,0.278736932778266
+m162,Can you teach me how to make jollof rice?,out_of_scope,stress_oos,,place_order,0.31485101740139865
+m188,Lol that meme you posted was funny 😂,out_of_scope,stress_oos,,complaint_refund,0.43660957256605426
+m191,Good morning,out_of_scope,stress_oos,,order_status,0.23358922066451515
+m195,"Wrong number, sorry",out_of_scope,stress_oos,,complaint_refund,0.25739114869243207
+m220,Can I get your email address for a business proposal?,out_of_scope,stress_oos,,place_order,0.27138100066556475
+m264,Happy new month to you and your team!,out_of_scope,stress_oos,,complaint_refund,0.267574362006276
+m276,Do you do franchise?,out_of_scope,stress_oos,,price_availability,0.6126315774243697
+m310,Please remove me from your broadcast list,out_of_scope,stress_oos,,payment_confirmation,0.2470828380325676
+m312,Do you have a job opening? I'd like to apply as a cook,out_of_scope,stress_oos,,price_availability,0.4633055648661996
+m324,Please who is the owner of this business,out_of_scope,stress_oos,,price_availability,0.27040417073316236
+m336,Hi,out_of_scope,stress_oos,,order_status,0.2295409914343805
+m343,What's your address? I want to come by next week,out_of_scope,stress_oos,,place_order,0.3022847544587534

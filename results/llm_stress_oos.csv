@@ -1,0 +1,21 @@
+id,message,intent,split,note,predicted,latency_s,input_tokens,output_tokens
+m042,Is this the same number for the owner?,out_of_scope,stress_oos,,out_of_scope,1.6625332149999998,811,33
+m087,Thanks!,out_of_scope,stress_oos,,out_of_scope,1.090457862,805,33
+m088,I want to collaborate with you on a food festival,out_of_scope,stress_oos,,out_of_scope,1.2739666620000012,814,33
+m090,Do you sell cooking equipment?,out_of_scope,stress_oos,,price_availability,1.2479507190000003,812,36
+m106,Congratulations on your new branch!,out_of_scope,stress_oos,,out_of_scope,0.9878912330000009,811,33
+m111,"I'm a supplier of fresh tomatoes, can we talk?",out_of_scope,stress_oos,,out_of_scope,0.8611887419999995,822,33
+m113,"Hello, are you hiring riders?",out_of_scope,stress_oos,,out_of_scope,1.3311289290000001,812,33
+m140,Can I advertise my business on your page?,out_of_scope,stress_oos,,out_of_scope,1.1752887239999996,812,33
+m162,Can you teach me how to make jollof rice?,out_of_scope,stress_oos,,out_of_scope,1.8617508849999993,815,33
+m188,Lol that meme you posted was funny 😂,out_of_scope,stress_oos,,out_of_scope,1.0495187579999978,815,33
+m191,Good morning,out_of_scope,stress_oos,,out_of_scope,1.0473455210000004,804,33
+m195,"Wrong number, sorry",out_of_scope,stress_oos,,out_of_scope,1.3220490709999986,809,33
+m220,Can I get your email address for a business proposal?,out_of_scope,stress_oos,,out_of_scope,0.9255650909999993,814,33
+m264,Happy new month to you and your team!,out_of_scope,stress_oos,,out_of_scope,1.1316938910000012,811,33
+m276,Do you do franchise?,out_of_scope,stress_oos,,out_of_scope,1.5181391219999973,808,33
+m310,Please remove me from your broadcast list,out_of_scope,stress_oos,,out_of_scope,1.1257289879999988,812,33
+m312,Do you have a job opening? I'd like to apply as a cook,out_of_scope,stress_oos,,out_of_scope,1.1242160080000012,820,33
+m324,Please who is the owner of this business,out_of_scope,stress_oos,,out_of_scope,1.0837585740000009,810,33
+m336,Hi,out_of_scope,stress_oos,,out_of_scope,1.7257659969999999,803,33
+m343,What's your address? I want to come by next week,out_of_scope,stress_oos,,price_availability,1.1390074329999997,812,36
