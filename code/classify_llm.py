@@ -10,7 +10,6 @@ from sklearn.metrics import accuracy_score, classification_report
 MODEL = "claude-haiku-5-5"
 
 # USD per million tokens, for prompts up to 100,000 tokens.
-# Check the current numbers on the Claude pricing page before you publish.
 INPUT_PRICE_PER_MTOK = 0.10
 OUTPUT_PRICE_PER_MTOK = 0.50
 
