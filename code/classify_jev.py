@@ -10,7 +10,6 @@ from typesafe_sdk import Choice, TypeSafeAuthenticationError, TypeSafeClient, Ty
 MODEL = "jev-1.13.0"  # pinned, so the results don't change if the "latest" alias moves
 
 # USD per million input tokens. Output tokens are free.
-# Check the current price with TypeSafe before you publish.
 INPUT_PRICE_PER_MTOK = 0.042
 
 # Same definitions as the Claude Haiku prompt, word for word.
